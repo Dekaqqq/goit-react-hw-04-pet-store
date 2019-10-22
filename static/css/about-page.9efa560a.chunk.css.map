@@ -1,0 +1,1 @@
+{"version":3,"sources":["About.module.css"],"names":[],"mappings":"AAAA,uBACI,eAAgB,CAChB,gBAAiB,CACjB,aACJ,CAEA,mBACI,WACJ","file":"about-page.9efa560a.chunk.css","sourcesContent":[".headline {\n    margin-top: 50px;\n    margin-left: 30px;\n    color: #242222;\n}\n\n.text {\n    margin: 30px;\n}\n"]}

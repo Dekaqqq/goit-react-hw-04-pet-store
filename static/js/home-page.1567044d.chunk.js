@@ -1,0 +1,2 @@
+(window["webpackJsonpgoit-react-hw-01-components"]=window["webpackJsonpgoit-react-hw-01-components"]||[]).push([[1],{36:function(e,n,o){e.exports={headline:"Home_headline__qgDem"}},46:function(e,n,o){"use strict";o.r(n);var t=o(0),a=o.n(t),c=o(36),i=o.n(c);n.default=function(){return a.a.createElement("h1",{className:i.a.headline},"Welcome to Paws online store")}}}]);
+//# sourceMappingURL=home-page.1567044d.chunk.js.map
