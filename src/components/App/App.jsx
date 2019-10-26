@@ -1,5 +1,5 @@
 import React, { Component, lazy, Suspense } from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom';
+import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './App.css';
 import Nav from './Nav/Nav';
@@ -59,7 +59,7 @@ class App extends Component {
                             render={props => <Pets {...props} pets={pets} />}
                         />
                         <Route path="/about" component={About} />
-                        <Route component={Home} />
+                        <Redirect to="/" component={Home} />
                     </Switch>
                 </Suspense>
             </div>
